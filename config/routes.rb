@@ -1,5 +1,7 @@
 MyBasecamp::Application.routes.draw do
  root "projects#index"
 
- resources :projects, only: [:index, :new, :create, :show, :edit, :update, :destroy]
+ resources :projects do
+ 	resources :tickets
+ end
 end
