@@ -126,6 +126,7 @@ DEPENDENCIES
   capybara (= 2.1.0)
   foundation-rails
   jquery-rails
+  nokogiri (= 1.6.1)
   rails (= 4.0.0)
   rspec-rails (~> 2.14)
   sass-rails (~> 4.0.0)
