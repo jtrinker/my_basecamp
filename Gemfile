@@ -22,6 +22,9 @@ gem 'nokogiri', '1.6.1'
 
 gem 'foundation-rails'
 
+# To use ActiveModel has_secure_password
+gem 'bcrypt'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
